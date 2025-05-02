@@ -76,7 +76,7 @@ const HomeContactForm = () => {
                 <div className="ml-2">
                   <p className="font-medium">Phone:</p>
                   <a href="tel:+8801XXXXXXXX" className="text-archive-green hover:underline">
-                    +880 1XX XXX XXXX
+                    +8801850-273117
                   </a>
                 </div>
               </div>

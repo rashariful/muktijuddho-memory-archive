@@ -57,7 +57,7 @@ const Index = () => {
         </section>
 
         {/* Call to Action with Background Image */}
-        <section className="py-16 relative">
+        <section className="py-10 relative">
           <div className="absolute inset-0 z-0">
             <AspectRatio ratio={21/9}>
               <img 
@@ -80,9 +80,12 @@ const Index = () => {
           </div>
         </section>
         
+      </main>
+        <div className='mt-96 z-10'>
+
         {/* Contact Form Section */}
         <HomeContactForm />
-      </main>
+        </div>
       <Footer />
     </div>
   );

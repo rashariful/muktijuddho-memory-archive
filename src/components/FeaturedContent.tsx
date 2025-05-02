@@ -12,7 +12,7 @@ const featuredDocuments = [
     type: "Official Document",
     date: "March 26, 1971",
     preview: "The formal proclamation of independence of Bangladesh by Sheikh Mujibur Rahman.",
-    imageUrl: "https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&q=80",
+    imageUrl: "https://images.theconversation.com/files/606611/original/file-20240712-17-j3tnek.jpg?ixlib=rb-4.1.0&rect=17%2C22%2C3817%2C2121&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
     link: "/documents/declaration-independence"
   },
   {
@@ -21,7 +21,7 @@ const featuredDocuments = [
     type: "Historical Speech",
     date: "March 7, 1971",
     preview: "Sheikh Mujibur Rahman's historic speech that effectively declared the independence of Bangladesh.",
-    imageUrl: "https://images.unsplash.com/photo-1580820267682-426da823b514?auto=format&fit=crop&q=80",
+    imageUrl: "https://t3.ftcdn.net/jpg/02/65/46/60/360_F_265466046_pADSmTrhaB5uU3yXdmuYQL1fR8JPkKnQ.jpg",
     link: "/documents/seventh-march-speech"
   },
   {
@@ -30,7 +30,7 @@ const featuredDocuments = [
     type: "Political Document",
     date: "April 10, 1971",
     preview: "Documents detailing the formation of the first government of Bangladesh.",
-    imageUrl: "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?auto=format&fit=crop&q=80",
+    imageUrl: "https://www.humanium.org/en/wp-content/uploads/2021/11/shutterstock_1528702352-1024x684.jpg",
     link: "/documents/mujibnagar-government"
   }
 ];
@@ -41,7 +41,7 @@ const featuredInterviews = [
     name: "Kamal Ahmed",
     role: "Freedom Fighter",
     preview: "First-hand account of the liberation struggle in Chittagong sector.",
-    imageUrl: "https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&q=80",
+    imageUrl: "https://cdn.daily-sun.com/public/news_images/2024/12/22/thumbnails/1734880791-b731cd55f4785ede1faa7a2a589a490a.jpg",
     link: "/interviews/kamal-ahmed"
   },
   {
@@ -49,7 +49,7 @@ const featuredInterviews = [
     name: "Dr. Nusrat Hossain",
     role: "Medical Volunteer",
     preview: "Recollections of providing medical aid to wounded freedom fighters in the border regions.",
-    imageUrl: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ4gYEZWLIj7QYKf_b4US_bkRk08I5vRRMpQ&s",
     link: "/interviews/nusrat-hossain"
   }
 ];
@@ -151,10 +151,10 @@ const FeaturedContent = () => {
               <CardContent className="p-0">
                 <div className="grid grid-cols-2 grid-rows-2 aspect-[4/3]">
                   {[
-                    "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?auto=format&fit=crop&q=80",
-                    "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&q=80",
-                    "https://images.unsplash.com/photo-1466442929976-97f336a657be?auto=format&fit=crop&q=80",
-                    "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80"
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH_2bBNCvg95HshQmMRUG0r_ckorLb7mrWh-aebe5BI0X15JNE4C9NsUUX-SZq753FXMc&usqp=CAU",
+                    "https://www.humanium.org/en/wp-content/uploads/2021/11/shutterstock_1528702352-1024x684.jpg",
+                    "https://www.indiaspend.com/h-upload/2023/09/29/1079481-updated-bonded-labour-india-1500.webp",
+                    "https://images.theconversation.com/files/606611/original/file-20240712-17-j3tnek.jpg?ixlib=rb-4.1.0&rect=17%2C22%2C3817%2C2121&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip"
                   ].map((imgUrl, index) => (
                     <div key={index} className={cn(
                       "relative overflow-hidden border border-white",

@@ -61,7 +61,7 @@ const Footer = () => {
               <p className="mb-2">123 University Avenue</p>
               <p className="mb-2">Dhaka, Bangladesh</p>
               <p className="mb-2">Email: info@liberationwararchive.org</p>
-              <p>Phone: +880 1XX XXX XXXX</p>
+              <p>Phone: +8801850-273117</p>
             </address>
           </div>
         </div>

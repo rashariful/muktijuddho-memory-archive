@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const Hero = () => {
   return (
@@ -39,25 +40,19 @@ const Hero = () => {
           </div>
 
           <div className="lg:w-1/2 rounded-lg overflow-hidden shadow-xl">
-            <div className="relative h-0 pb-[60%]">
-              <div className="absolute inset-0 bg-archive-navy flex items-center justify-center overflow-hidden">
+            <div className="relative">
+              <AspectRatio ratio={16/9} className="bg-archive-navy">
                 <img 
-                  src="/liberation-war-hero.jpg" 
-                  alt="Historical photograph from the Bangladesh Liberation War"
-                  className="w-full h-full object-cover opacity-80"
-                  onError={(e) => {
-                    // Fallback image if the main image fails to load
-                    const target = e.target as HTMLImageElement;
-                    target.src = 'https://images.unsplash.com/photo-1466442929976-97f336a657be?auto=format&fit=crop&q=80';
-                    target.alt = 'Symbolic image representing historical archives';
-                  }}
+                  src="https://images.unsplash.com/photo-1466442929976-97f336a657be?auto=format&fit=crop&q=80" 
+                  alt="Historical photograph symbolizing Bangladesh's liberation struggle"
+                  className="w-full h-full object-cover opacity-90"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-0 left-0 p-6 text-white">
                   <p className="font-serif text-lg">Discover the untold stories</p>
                   <p className="text-sm opacity-80">Over 1,000 historical records</p>
                 </div>
-              </div>
+              </AspectRatio>
             </div>
           </div>
         </div>

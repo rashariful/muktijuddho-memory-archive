@@ -4,6 +4,7 @@ import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import FeaturedContent from '@/components/FeaturedContent';
 import Footer from '@/components/Footer';
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const Index = () => {
   return (
@@ -54,9 +55,19 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Call to Action */}
-        <section className="py-16 bg-archive-paper">
-          <div className="archive-container text-center">
+        {/* Call to Action with Background Image */}
+        <section className="py-16 relative">
+          <div className="absolute inset-0 z-0">
+            <AspectRatio ratio={21/9}>
+              <img 
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80" 
+                alt="Historical document background"
+                className="w-full h-full object-cover opacity-25"
+              />
+              <div className="absolute inset-0 bg-archive-paper/80"></div>
+            </AspectRatio>
+          </div>
+          <div className="archive-container text-center relative z-10">
             <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6">Contribute to Our Archive</h2>
             <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
               Help us preserve the history of Bangladesh's Liberation War. If you have documents, photographs, or stories to share, we welcome your contribution.

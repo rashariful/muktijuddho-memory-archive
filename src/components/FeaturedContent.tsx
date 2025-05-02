@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from '@/lib/utils';
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const featuredDocuments = [
   {
@@ -11,7 +12,7 @@ const featuredDocuments = [
     type: "Official Document",
     date: "March 26, 1971",
     preview: "The formal proclamation of independence of Bangladesh by Sheikh Mujibur Rahman.",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?auto=format&fit=crop&q=80",
     link: "/documents/declaration-independence"
   },
   {
@@ -20,7 +21,7 @@ const featuredDocuments = [
     type: "Military Record",
     date: "December 16, 1971",
     preview: "The instrument of surrender signed by Pakistan's Lieutenant-General A. A. K. Niazi.",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&q=80",
     link: "/documents/surrender-document"
   },
   {
@@ -29,7 +30,7 @@ const featuredDocuments = [
     type: "International Documentation",
     date: "August 1971",
     preview: "Report on the systematic killings during the Bangladesh Liberation War.",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80",
     link: "/documents/genocide-report"
   }
 ];
@@ -40,7 +41,7 @@ const featuredInterviews = [
     name: "Kamal Ahmed",
     role: "Freedom Fighter",
     preview: "First-hand account of the struggle in the Chittagong Hill Tracts region.",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&q=80",
     link: "/interviews/kamal-ahmed"
   },
   {
@@ -48,7 +49,7 @@ const featuredInterviews = [
     name: "Dr. Nusrat Hossain",
     role: "Medical Volunteer",
     preview: "Recollections of providing medical aid to wounded freedom fighters and civilians.",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80",
     link: "/interviews/nusrat-hossain"
   }
 ];
@@ -76,15 +77,18 @@ const FeaturedContent = () => {
               <Link to={doc.link} key={doc.id}>
                 <Card className="h-full card-hover border border-gray-200">
                   <CardContent className="p-0">
-                    <div className="h-40 bg-archive-paper border-b border-gray-200 flex items-center justify-center">
-                      <div className="text-center p-4">
-                        <span className="block font-serif text-lg font-medium text-archive-navy">{doc.title}</span>
-                        <span className="text-sm text-gray-500">{doc.date}</span>
-                      </div>
-                    </div>
+                    <AspectRatio ratio={16/9} className="bg-archive-navy/5 border-b border-gray-200">
+                      <img 
+                        src={doc.imageUrl} 
+                        alt={doc.title}
+                        className="w-full h-full object-cover"
+                      />
+                    </AspectRatio>
                     <div className="p-4">
                       <span className="inline-block px-2 py-1 rounded text-xs bg-archive-green/10 text-archive-green mb-2">{doc.type}</span>
-                      <p className="text-sm text-gray-600 line-clamp-3">{doc.preview}</p>
+                      <h4 className="font-medium font-serif text-lg mb-1 text-archive-navy">{doc.title}</h4>
+                      <p className="text-sm text-gray-500 mb-2">{doc.date}</p>
+                      <p className="text-sm text-gray-600 line-clamp-2">{doc.preview}</p>
                     </div>
                   </CardContent>
                 </Card>
@@ -112,8 +116,12 @@ const FeaturedContent = () => {
                 <Link to={interview.link} key={interview.id}>
                   <Card className="card-hover border border-gray-200">
                     <CardContent className="p-4 flex gap-4">
-                      <div className="h-16 w-16 rounded-full bg-archive-navy/10 flex-shrink-0 flex items-center justify-center">
-                        <span className="font-serif text-xl text-archive-navy">{interview.name.charAt(0)}</span>
+                      <div className="h-16 w-16 rounded-full bg-archive-navy overflow-hidden flex-shrink-0">
+                        <img 
+                          src={interview.imageUrl}
+                          alt={interview.name}
+                          className="w-full h-full object-cover"
+                        />
                       </div>
                       <div>
                         <h4 className="font-medium text-archive-navy">{interview.name}</h4>
@@ -141,33 +149,29 @@ const FeaturedContent = () => {
             
             <Card className="border border-gray-200 overflow-hidden card-hover">
               <CardContent className="p-0">
-                <div className="aspect-[4/3] relative">
-                  <div className="grid grid-cols-2 grid-rows-2 h-full">
-                    {[1, 2, 3, 4].map((num) => (
-                      <div key={num} className="relative overflow-hidden border border-white">
-                        <div className={cn(
-                          "h-full bg-archive-paper flex items-center justify-center",
-                          num === 4 && "relative"
-                        )}>
-                          <img 
-                            src={`/photo-${num}.jpg`} 
-                            alt={`Historical photograph ${num}`}
-                            className="h-full w-full object-cover"
-                            onError={(e) => {
-                              const target = e.target as HTMLImageElement;
-                              target.src = 'https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&q=80';
-                              target.alt = 'Placeholder image';
-                            }}
-                          />
-                          {num === 4 && (
-                            <div className="absolute inset-0 bg-archive-navy/50 flex items-center justify-center">
-                              <span className="text-white font-medium">View more</span>
-                            </div>
-                          )}
+                <div className="grid grid-cols-2 grid-rows-2 aspect-[4/3]">
+                  {[
+                    "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?auto=format&fit=crop&q=80",
+                    "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&q=80",
+                    "https://images.unsplash.com/photo-1466442929976-97f336a657be?auto=format&fit=crop&q=80",
+                    "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80"
+                  ].map((imgUrl, index) => (
+                    <div key={index} className={cn(
+                      "relative overflow-hidden border border-white",
+                      index === 3 && "relative"
+                    )}>
+                      <img 
+                        src={imgUrl}
+                        alt={`Historical photograph ${index + 1}`}
+                        className="h-full w-full object-cover"
+                      />
+                      {index === 3 && (
+                        <div className="absolute inset-0 bg-archive-navy/50 flex items-center justify-center">
+                          <span className="text-white font-medium">View more</span>
                         </div>
-                      </div>
-                    ))}
-                  </div>
+                      )}
+                    </div>
+                  ))}
                 </div>
                 <div className="p-4 bg-white">
                   <h4 className="font-medium">Historical Photographs</h4>

@@ -17,21 +17,21 @@ const featuredDocuments = [
   },
   {
     id: "doc-2",
-    title: "Surrender Document",
-    type: "Military Record",
-    date: "December 16, 1971",
-    preview: "The instrument of surrender signed by Pakistan's Lieutenant-General A. A. K. Niazi.",
-    imageUrl: "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&q=80",
-    link: "/documents/surrender-document"
+    title: "7th March Speech",
+    type: "Historical Speech",
+    date: "March 7, 1971",
+    preview: "Sheikh Mujibur Rahman's historic speech that effectively declared the independence of Bangladesh.",
+    imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80",
+    link: "/documents/seventh-march-speech"
   },
   {
     id: "doc-3",
-    title: "Genocide Report",
-    type: "International Documentation",
-    date: "August 1971",
-    preview: "Report on the systematic killings during the Bangladesh Liberation War.",
-    imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80",
-    link: "/documents/genocide-report"
+    title: "Mujibnagar Government Formation",
+    type: "Political Document",
+    date: "April 10, 1971",
+    preview: "Documents detailing the formation of the first government of Bangladesh.",
+    imageUrl: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80",
+    link: "/documents/mujibnagar-government"
   }
 ];
 
@@ -40,7 +40,7 @@ const featuredInterviews = [
     id: "int-1",
     name: "Kamal Ahmed",
     role: "Freedom Fighter",
-    preview: "First-hand account of the struggle in the Chittagong Hill Tracts region.",
+    preview: "First-hand account of the liberation struggle in Chittagong sector.",
     imageUrl: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&q=80",
     link: "/interviews/kamal-ahmed"
   },
@@ -48,8 +48,8 @@ const featuredInterviews = [
     id: "int-2",
     name: "Dr. Nusrat Hossain",
     role: "Medical Volunteer",
-    preview: "Recollections of providing medical aid to wounded freedom fighters and civilians.",
-    imageUrl: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80",
+    preview: "Recollections of providing medical aid to wounded freedom fighters in the border regions.",
+    imageUrl: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&q=80",
     link: "/interviews/nusrat-hossain"
   }
 ];

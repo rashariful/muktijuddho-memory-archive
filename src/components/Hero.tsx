@@ -44,13 +44,13 @@ const Hero = () => {
               <AspectRatio ratio={16/9} className="bg-archive-navy">
                 <img 
                   src="https://images.unsplash.com/photo-1466442929976-97f336a657be?auto=format&fit=crop&q=80" 
-                  alt="Historical photograph symbolizing Bangladesh's liberation struggle"
+                  alt="Historical photograph of the Liberation War of Bangladesh"
                   className="w-full h-full object-cover opacity-90"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-0 left-0 p-6 text-white">
-                  <p className="font-serif text-lg">Discover the untold stories</p>
-                  <p className="text-sm opacity-80">Over 1,000 historical records</p>
+                  <p className="font-serif text-lg">Bengali nationhood struggle</p>
+                  <p className="text-sm opacity-80">The birth of a nation in 1971</p>
                 </div>
               </AspectRatio>
             </div>

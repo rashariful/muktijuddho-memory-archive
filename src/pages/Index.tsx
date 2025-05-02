@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import FeaturedContent from '@/components/FeaturedContent';
+import HomeContactForm from '@/components/HomeContactForm';
 import Footer from '@/components/Footer';
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
@@ -78,6 +79,9 @@ const Index = () => {
             </div>
           </div>
         </section>
+        
+        {/* Contact Form Section */}
+        <HomeContactForm />
       </main>
       <Footer />
     </div>

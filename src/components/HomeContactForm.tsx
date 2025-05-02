@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const HomeContactForm = () => {
   const { toast } = useToast();
@@ -57,7 +57,7 @@ const HomeContactForm = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
           <div className="md:w-1/3 text-center md:text-left">
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-archive-green/10 text-archive-green mb-6">
-              <mail className="w-8 h-8" />
+              <Mail className="w-8 h-8" />
             </div>
             <h2 className="font-serif text-3xl font-bold mb-4">Contact Us</h2>
             <p className="text-gray-600 mb-6">

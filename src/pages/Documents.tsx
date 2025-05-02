@@ -16,6 +16,7 @@ const documents = [
     category: "political",
     description: "The formal proclamation of Bangladesh's independence by Sheikh Mujibur Rahman.",
     source: "Bangladesh National Archives",
+    imageUrl: "https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&q=80"
   },
   {
     id: "doc2",
@@ -25,6 +26,7 @@ const documents = [
     category: "military",
     description: "Document signed by Pakistan's Eastern Command, marking the end of the war.",
     source: "Ministry of Liberation War Affairs",
+    imageUrl: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?auto=format&fit=crop&q=80"
   },
   {
     id: "doc3",
@@ -34,6 +36,7 @@ const documents = [
     category: "humanitarian",
     description: "Documentation of atrocities committed during the Bangladesh Liberation War.",
     source: "International Commission of Jurists",
+    imageUrl: "https://images.unsplash.com/photo-1605013343009-c16ee71f2a66?auto=format&fit=crop&q=80"
   },
   {
     id: "doc4",
@@ -43,6 +46,7 @@ const documents = [
     category: "humanitarian",
     description: "UN resolution addressing the refugee crisis during the conflict.",
     source: "United Nations Archives",
+    imageUrl: "https://images.unsplash.com/photo-1580820267682-426da823b514?auto=format&fit=crop&q=80"
   },
   {
     id: "doc5",
@@ -52,6 +56,7 @@ const documents = [
     category: "communication",
     description: "Transcripts of wartime broadcasts from 'Swadhin Bangla Betar Kendra'.",
     source: "Bangladesh Betar Archive",
+    imageUrl: "https://images.unsplash.com/photo-1469571486292-b53601a7a6c9?auto=format&fit=crop&q=80"
   },
   {
     id: "doc6",
@@ -61,6 +66,7 @@ const documents = [
     category: "personal",
     description: "Collected testimonies from witnesses of key events during the war.",
     source: "Liberation War Museum",
+    imageUrl: "https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&q=80"
   },
   {
     id: "doc7",
@@ -70,6 +76,7 @@ const documents = [
     category: "humanitarian",
     description: "Records of international humanitarian assistance during the conflict.",
     source: "Ministry of Foreign Affairs",
+    imageUrl: "https://images.unsplash.com/photo-1593113630400-ea4288922497?auto=format&fit=crop&q=80"
   },
   {
     id: "doc8",
@@ -79,6 +86,7 @@ const documents = [
     category: "military",
     description: "Strategic maps used during various operations of the Liberation War.",
     source: "Bangladesh Military Archives",
+    imageUrl: "https://images.unsplash.com/photo-1541959833400-049d37f98cfc?auto=format&fit=crop&q=80"
   },
   {
     id: "doc9",
@@ -88,6 +96,7 @@ const documents = [
     category: "political",
     description: "Documents related to the formation of the provisional government.",
     source: "National Archives",
+    imageUrl: "https://images.unsplash.com/photo-1456086272160-b28b0645b729?auto=format&fit=crop&q=80"
   }
 ];
 

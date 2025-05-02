@@ -15,7 +15,7 @@ const photos = [
     description: "Sheikh Mujibur Rahman addresses a mass rally at Dhaka University, calling for independence.",
     photographer: "Unknown",
     source: "Liberation War Museum",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&q=80",
   },
   {
     id: "photo2",
@@ -25,7 +25,7 @@ const photos = [
     description: "Refugees fleeing to India during the Liberation War.",
     photographer: "James Roberts",
     source: "International Press Archive",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1580820267682-426da823b514?auto=format&fit=crop&q=80",
   },
   {
     id: "photo3",
@@ -35,7 +35,7 @@ const photos = [
     description: "Young freedom fighters receiving military training at a camp near the border.",
     photographer: "Abdul Hamid",
     source: "National Archives",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1469571486292-b53601a7a6c9?auto=format&fit=crop&q=80",
   },
   {
     id: "photo4",
@@ -45,7 +45,7 @@ const photos = [
     description: "A strategic bridge destroyed during combat operations in the Comilla region.",
     photographer: "David Williams",
     source: "War Correspondents Collection",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1456086272160-b28b0645b729?auto=format&fit=crop&q=80",
   },
   {
     id: "photo5",
@@ -55,7 +55,7 @@ const photos = [
     description: "Pakistani forces surrendering to the joint forces of Bangladesh and India.",
     photographer: "Rashid Ahmed",
     source: "Government Archives",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?auto=format&fit=crop&q=80",
   },
   {
     id: "photo6",
@@ -65,7 +65,7 @@ const photos = [
     description: "Women participating in the liberation movement in various roles.",
     photographer: "Nazma Begum",
     source: "Women's History Collection",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80",
   },
   {
     id: "photo7",
@@ -75,7 +75,7 @@ const photos = [
     description: "The aftermath of an attack on a village in the Khulna region.",
     photographer: "Michael Thompson",
     source: "International Red Cross Archives",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1605013343009-c16ee71f2a66?auto=format&fit=crop&q=80",
   },
   {
     id: "photo8",
@@ -85,7 +85,7 @@ const photos = [
     description: "Citizens celebrating in the streets of Dhaka after victory.",
     photographer: "Farid Khan",
     source: "National Museum",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&q=80",
   },
   {
     id: "photo9",
@@ -95,7 +95,7 @@ const photos = [
     description: "Freedom fighters planning guerrilla operations against occupying forces.",
     photographer: "Anonymous",
     source: "Military Archives",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1541959833400-049d37f98cfc?auto=format&fit=crop&q=80",
   },
   {
     id: "photo10",
@@ -105,7 +105,7 @@ const photos = [
     description: "Conditions at a refugee camp in West Bengal, India.",
     photographer: "Sunil Das",
     source: "Indian Archives",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1580820267682-426da823b514?auto=format&fit=crop&q=80",
   },
   {
     id: "photo11",
@@ -115,7 +115,7 @@ const photos = [
     description: "International volunteers providing humanitarian aid to refugees.",
     photographer: "Sarah Johnson",
     source: "UNICEF Archives",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1593113630400-ea4288922497?auto=format&fit=crop&q=80",
   },
   {
     id: "photo12",
@@ -125,7 +125,7 @@ const photos = [
     description: "The state of Dhaka University campus after the military crackdown.",
     photographer: "Rahman Ali",
     source: "University Archives",
-    imageUrl: "",
+    imageUrl: "https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&q=80",
   }
 ];
 

@@ -12,7 +12,7 @@ const featuredDocuments = [
     type: "Official Document",
     date: "March 26, 1971",
     preview: "The formal proclamation of independence of Bangladesh by Sheikh Mujibur Rahman.",
-    imageUrl: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&q=80",
     link: "/documents/declaration-independence"
   },
   {
@@ -21,7 +21,7 @@ const featuredDocuments = [
     type: "Historical Speech",
     date: "March 7, 1971",
     preview: "Sheikh Mujibur Rahman's historic speech that effectively declared the independence of Bangladesh.",
-    imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1580820267682-426da823b514?auto=format&fit=crop&q=80",
     link: "/documents/seventh-march-speech"
   },
   {
@@ -30,7 +30,7 @@ const featuredDocuments = [
     type: "Political Document",
     date: "April 10, 1971",
     preview: "Documents detailing the formation of the first government of Bangladesh.",
-    imageUrl: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?auto=format&fit=crop&q=80",
     link: "/documents/mujibnagar-government"
   }
 ];
@@ -41,7 +41,7 @@ const featuredInterviews = [
     name: "Kamal Ahmed",
     role: "Freedom Fighter",
     preview: "First-hand account of the liberation struggle in Chittagong sector.",
-    imageUrl: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&q=80",
     link: "/interviews/kamal-ahmed"
   },
   {
@@ -49,7 +49,7 @@ const featuredInterviews = [
     name: "Dr. Nusrat Hossain",
     role: "Medical Volunteer",
     preview: "Recollections of providing medical aid to wounded freedom fighters in the border regions.",
-    imageUrl: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80",
     link: "/interviews/nusrat-hossain"
   }
 ];

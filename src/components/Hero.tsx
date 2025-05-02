@@ -43,7 +43,7 @@ const Hero = () => {
             <div className="relative">
               <AspectRatio ratio={16/9} className="bg-archive-navy">
                 <img 
-                  src="https://images.unsplash.com/photo-1466442929976-97f336a657be?auto=format&fit=crop&q=80" 
+                  src="https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&q=80" 
                   alt="Historical photograph of the Liberation War of Bangladesh"
                   className="w-full h-full object-cover opacity-90"
                 />
